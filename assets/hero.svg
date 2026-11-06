@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="770" viewBox="0 0 960 770" role="img" aria-labelledby="title desc"><title id="title">阿里山森林鐵道的日系手繪插畫</title><desc id="desc">暖色夕陽下的高山、森林、紅色小火車與可愛的兩隻小雞</desc>
+<defs>
+ <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#e6cbb5"/><stop offset=".48" stop-color="#f7ddb1"/><stop offset="1" stop-color="#d4dcbf"/></linearGradient>
+ <linearGradient id="mount" x2="0" y2="1"><stop stop-color="#759b8e"/><stop offset="1" stop-color="#3b675d"/></linearGradient>
+ <linearGradient id="front" x2="0" y2="1"><stop stop-color="#466f5d"/><stop offset="1" stop-color="#1e4a40"/></linearGradient>
+ <pattern id="noise" width="12" height="12" patternUnits="userSpaceOnUse"><circle cx="2" cy="5" r=".65" fill="#fff" opacity=".32"/><circle cx="9" cy="11" r=".75" fill="#244e40" opacity=".13"/></pattern>
+</defs>
+<rect width="960" height="770" rx="18" fill="url(#sky)"/>
+<circle cx="755" cy="145" r="87" fill="#fff2ca" opacity=".87"/>
+<circle cx="755" cy="145" r="106" fill="none" stroke="#fff7d5" opacity=".8" stroke-width="2"/>
+<g fill="#fff9e8" opacity=".55"><ellipse cx="189" cy="163" rx="115" ry="16"/><ellipse cx="259" cy="146" rx="90" ry="22"/><ellipse cx="650" cy="277" rx="160" ry="13"/></g>
+<path d="M0 415 95 313 164 358 280 215 374 322 489 198 635 355 738 263 960 422V770H0Z" fill="#a0b5a0"/>
+<path d="m0 490 144-159 84 94 151-177 128 139 147-127 167 160 139-113v463H0Z" fill="url(#mount)"/>
+<path d="M0 566 135 479l106 45 120-103 180 93 120-72 152 70 147-86v344H0Z" fill="#73927d"/>
+<path d="M0 633 111 539 215 583 337 492l161 90 128-89 162 75 172-94v296H0Z" fill="url(#front)"/>
+<g fill="#234f43" opacity=".94">
+ <path d="m21 609 38-103 38 103h-23l26 56H17l26-56zm114-18 32-92 32 92h-18l28 58h-78l23-58zm639 13 35-108 39 108h-21l27 59h-90l30-59zM880 604l31-85 31 85h-19l21 53h-72l19-53z"/>
+</g>
+<g opacity=".95" transform="translate(0 10)">
+ <path d="M160 544Q460 399 770 551" stroke="#d3b18d" stroke-width="38" fill="none" stroke-linecap="round"/>
+ <path d="M160 543Q460 398 770 550" stroke="#263d37" stroke-width="11" fill="none"/>
+ <path d="M160 556Q460 412 770 563" stroke="#263d37" stroke-width="10" fill="none"/>
+ <path d="M160 548Q460 405 770 556" stroke="#e1d3ae" stroke-width="2" stroke-dasharray="12 20" fill="none"/>
+</g>
+<g id="train" transform="translate(364 405) rotate(0)">
+ <rect x="4" y="16" width="220" height="66" rx="13" fill="#b9513c" stroke="#73352d" stroke-width="3"/>
+ <path d="M17 13h174l30 13H5Z" fill="#f6e9d0" stroke="#73352d" stroke-width="3"/>
+ <rect x="19" y="28" width="48" height="29" rx="4" fill="#d8e7d9"/><rect x="79" y="28" width="48" height="29" rx="4" fill="#d8e7d9"/><rect x="140" y="28" width="49" height="29" rx="4" fill="#d8e7d9"/>
+ <rect x="19" y="60" width="182" height="9" rx="3" fill="#f2d39f"/><circle cx="43" cy="88" r="12" fill="#2a3937"/><circle cx="184" cy="88" r="12" fill="#2a3937"/><circle cx="216" cy="52" r="5" fill="#f9d891"/>
+</g>
+<path d="M0 690C197 643 269 726 453 661 632 598 777 697 960 620V770H0Z" fill="#173e36"/>
+<g fill="#2a5141" opacity=".95"><path d="M0 695v-118l18 47 18-59 20 64 15-48 18 68 23-42 20 88zM760 679l20-96 19 60 18-87 22 87 25-75 20 88 27-92 22 103 27-78v117z"/></g>
+<g transform="translate(155 602)">
+ <ellipse cx="83" cy="106" rx="130" ry="17" fill="#071d18" opacity=".19"/>
+ <ellipse cx="22" cy="51" rx="43" ry="46" fill="#fff8e9" stroke="#375b4a" stroke-width="3"/><path d="M-12 14 1 4l9 15" fill="#fff8e9" stroke="#375b4a" stroke-width="3"/><circle cx="8" cy="49" r="3" fill="#28463e"/><circle cx="34" cy="49" r="3" fill="#28463e"/><path d="M18 58h10l-5 7z" fill="#ce7955"/><circle cx="-1" cy="59" r="6" fill="#e9aaa0" opacity=".7"/><circle cx="45" cy="59" r="6" fill="#e9aaa0" opacity=".7"/>
+ <ellipse cx="116" cy="58" rx="46" ry="49" fill="#ffdb80" stroke="#375b4a" stroke-width="3"/><path d="M96 17q11-27 19 0 14-21 18-1" fill="#f2be6f" stroke="#375b4a" stroke-width="3"/><circle cx="103" cy="53" r="3" fill="#28463e"/><circle cx="127" cy="53" r="3" fill="#28463e"/><path d="M110 62h12l-6 7z" fill="#ce7955"/><circle cx="92" cy="67" r="6" fill="#efaa8e"/><circle cx="139" cy="67" r="6" fill="#efaa8e"/>
+ <path d="M67 65q-11-12-20-9" fill="none" stroke="#355747" stroke-width="3" stroke-linecap="round"/>
+</g>
+<rect width="960" height="770" rx="18" fill="url(#noise)" opacity=".6"/>
+<g fill="#fff8e9" font-family="serif" font-size="22" letter-spacing="5" opacity=".91"><text x="42" y="59">ALISHAN · 2026</text></g>
+<path d="M41 76h203" stroke="#fff8e9" stroke-width="2" opacity=".8"/>
+</svg>

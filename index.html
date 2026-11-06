@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#203f35" />
+  <meta name="description" content="小白小雞毛旅行社｜2026 阿里山・森の物語。鹿林星空、阿里山森林散步、眠月線石猴，三日兩夜限定雙人旅。" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="阿里山・森の物語｜小白小雞毛旅行社" />
+  <meta property="og:description" content="11.29—12.01｜星空、森林鐵道、眠月之約。只為兩個人出發的小旅行。" />
+  <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700;800&family=Zen+Old+Mincho:wght@400;500;600;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./styles.css" />
+  <title>阿里山・森の物語 — 小白小雞毛旅行社</title>
+</head>
+<body>
+  <div class="progress-rail" aria-hidden="true"><span id="scrollProgress"></span></div>
+  <header class="site-header">
+    <div class="header-inner wrap">
+      <a href="#top" class="brand" aria-label="小白小雞毛旅行社，回到首頁">
+        <span class="brand-mark" aria-hidden="true"><span class="mark-white">●</span><span class="mark-yellow">●</span></span>
+        <span class="brand-copy"><b>小白小雞毛旅行社</b><small>しろとひよこの旅</small></span>
+      </a>
+      <nav class="primary-nav" aria-label="主選單">
+        <a href="#story">旅程</a>
+        <a href="#timetable">交通</a>
+        <a href="#map">地圖</a>
+        <a href="#checklist">行前準備</a>
+      </nav>
+      <button class="header-share" type="button" id="shareBtn" aria-label="分享旅行網頁"><span aria-hidden="true">↗</span><span>分享旅程</span></button>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero wrap" aria-labelledby="heroTitle">
+      <div class="hero-text">
+        <div class="eyebrow"><span class="eyebrow-line"></span> WINTER SPECIAL · 二人限定 <span class="eyebrow-line"></span></div>
+        <p class="hero-kicker">2026 冬の特別企劃</p>
+        <h1 id="heroTitle"><span>阿里山</span><i class="title-dot" aria-hidden="true">・</i><br><span class="hero-subtitle">森<span class="tiny-kana">の</span>物語</span></h1>
+        <p class="hero-jp" lang="ja">星降る夜、森を歩いて、君と帰ろう。</p>
+        <p class="hero-intro">從鹿林的星空出發，搭上紅色森林鐵道，<br class="hide-mobile">再沿著眠月線，走進只有我們知道的風景。</p>
+        <div class="hero-metadata" aria-label="旅行資料">
+          <div><span class="meta-top">出發日</span><strong>11.29 <small>SUN</small></strong></div>
+          <span class="date-bridge" aria-hidden="true">→</span>
+          <div><span class="meta-top">返程日</span><strong>12.01 <small>TUE</small></strong></div>
+          <span class="metadata-rule"></span>
+          <div><span class="meta-top">行程</span><strong>三日兩夜</strong></div>
+          <div><span class="meta-top">團員</span><strong>剛好兩位 ♡</strong></div>
+        </div>
+        <div class="hero-actions">
+          <a href="#story" class="btn btn-forest">開始這趟旅行 <span aria-hidden="true">↘</span></a>
+          <button type="button" id="addCalendarBtn" class="btn btn-light">加入行事曆 <span aria-hidden="true">＋</span></button>
+        </div>
+        <div class="departure-countdown"><span class="pulse-dot" aria-hidden="true"></span><span id="countdownText">正在計算啟程日…</span></div>
+      </div>
+      <div class="hero-art-wrap">
+        <div class="hero-art-edge"><img src="./assets/hero.svg" width="960" height="770" alt="日系復古手繪的阿里山森林與紅色小火車，前方站著小白和小雞毛" /></div>
+        <div class="hero-stamp" aria-hidden="true"><span>森林鐵道</span><b>森</b><span>旅の記録</span></div>
+        <div class="hero-note"><span class="note-clover">✿</span> 一期一會，兩個人的山間慢旅 <span class="note-clover">✿</span></div>
+      </div>
+      <div class="scroll-note" aria-hidden="true"><span>SCROLL TO EXPLORE</span><i></i></div>
+    </section>
+
+    <div class="marquee" aria-hidden="true"><div class="marquee-track"><span>HOSHIZORA · 星空</span><span>✳</span><span>FOREST RAILWAY · 森林鐵道</span><span>✳</span><span>MIANYUE LINE · 眠月</span><span>✳</span><span>SHIRO & HIYOKO · ふたり旅</span><span>✳</span><span>HOSHIZORA · 星空</span><span>✳</span><span>FOREST RAILWAY · 森林鐵道</span><span>✳</span></div></div>
+
+    <section class="intro-section section-space wrap reveal" id="intro">
+      <div class="section-heading intro-heading">
+        <p class="section-label">旅のしおり / THE JOURNEY</p>
+        <h2>每一天，<em>都有不同的風景。</em></h2>
+        <p>一場考試後的出走，一個午後的森林約會，和一條等待已久的眠月線。</p>
+      </div>
+      <div class="chapter-cards">
+        <a href="#story" class="chapter-card chapter-one" data-selectday="0"><span class="chapter-no">01 <small>11.29 SUN</small></span><div class="chapter-icon">✦</div><span class="chapter-en">HOSHIZORA</span><h3>星空への旅</h3><p>鹿林天文台・滿天星光</p><span class="chapter-arrow">↗</span></a>
+        <a href="#story" class="chapter-card chapter-two" data-selectday="1"><span class="chapter-no">02 <small>11.30 MON</small></span><div class="chapter-icon">❀</div><span class="chapter-en">FOREST DATE</span><h3>森のデート</h3><p>姊妹潭・紅色森林小火車</p><span class="chapter-arrow">↗</span></a>
+        <a href="#story" class="chapter-card chapter-three" data-selectday="2"><span class="chapter-no">03 <small>12.01 TUE</small></span><div class="chapter-icon">🚂</div><span class="chapter-en">SLEEPING MOON</span><h3>眠月の約束</h3><p>石猴車站・百年鐵道</p><span class="chapter-arrow">↗</span></a>
+      </div>
+    </section>
+
+    <section class="journey-section section-space" id="story" aria-labelledby="storyTitle">
+      <div class="wrap">
+        <div class="section-heading compact reveal"><p class="section-label">01 / 旅程時刻表 · ITINERARY</p><h2 id="storyTitle">三天，<em>一起慢慢走。</em></h2><p>點選日期切換每天的行程。時間是旅行規劃，列車與公車請在出發前再確認。</p></div>
+        <div class="day-tabs reveal" role="tablist" aria-label="選擇旅行日期">
+          <button type="button" id="tab-0" class="day-tab is-active" role="tab" aria-selected="true" aria-controls="dayPanel" data-day="0"><span class="tab-num">DAY 01</span><strong>11 / 29</strong><small>日・鹿林星空</small></button>
+          <button type="button" id="tab-1" class="day-tab" role="tab" aria-selected="false" aria-controls="dayPanel" data-day="1" tabindex="-1"><span class="tab-num">DAY 02</span><strong>11 / 30</strong><small>一・森林約會</small></button>
+          <button type="button" id="tab-2" class="day-tab" role="tab" aria-selected="false" aria-controls="dayPanel" data-day="2" tabindex="-1"><span class="tab-num">DAY 03</span><strong>12 / 01</strong><small>二・眠月鐵道</small></button>
+        </div>
+        <div class="day-panel" id="dayPanel" role="tabpanel" aria-labelledby="tab-0" tabindex="0">
+          <noscript><p>請啟用 JavaScript 以切換每日行程。本頁仍提供下方官方查詢連結。</p></noscript>
+        </div>
+      </div>
+    </section>
+
+    <section class="timetable-section section-space wrap" id="timetable">
+      <div class="section-heading reveal"><p class="section-label">02 / 交通案內 · TRANSPORT DESK</p><h2>下一班車，<em>我們一起搭。</em></h2><p>關鍵時間放大、官方時刻表一鍵核對。以下為目前規劃班次，非即時到站資料。</p></div>
+      <div class="transport-grid">
+        <article class="transport-card reveal"><div class="transport-top"><span class="transport-number">6739</span><span class="status-label">11/30 週一・預定</span></div><p class="transport-operator">員林客運｜日月潭 → 阿里山</p><div class="time-pair"><div><small>上東埔站</small><strong>12:08</strong></div><span class="transport-arrow">→</span><div><small>阿里山轉運站</small><strong>12:40</strong></div></div><p class="transport-desc">從鹿林天文台步行下山至東埔停車場附近，<strong>務必核對「上東埔」正式站牌的位置</strong>與乘車預約規則。</p><div class="transport-links"><a target="_blank" rel="noopener noreferrer" href="https://beta.taiwantrip.tad.gov.tw/Route/Schedule?routeId=R0099">官方逐站時刻 ↗</a><a target="_blank" rel="noopener noreferrer" href="https://ylbus.fontour.com/">客運訂位資訊 ↗</a></div></article>
+        <article class="transport-card red-card reveal"><div class="transport-top"><span class="transport-number">114</span><span class="status-label">11/30・可選體驗</span></div><p class="transport-operator">阿里山林鐵｜神木線</p><div class="time-pair"><div><small>阿里山站</small><strong>14:10</strong></div><span class="transport-arrow">→</span><div><small>神木站</small><strong>14:17</strong></div></div><p class="transport-desc">搭一小段紅色森林小火車，再沿巨木群、姊妹潭散步。<strong>若轉乘或午餐耽誤可改搭後續班次。</strong></p><div class="transport-links"><a target="_blank" rel="noopener noreferrer" href="https://afrch.forest.gov.tw/0000300">林鐵官方時刻 ↗</a><a target="_blank" rel="noopener noreferrer" href="https://afrts.forest.gov.tw/OT01_1.aspx">官方訂票 ↗</a></div></article>
+        <article class="transport-card reveal"><div class="transport-top"><span class="transport-number">7329</span><span class="status-label">12/01 週二・回程</span></div><p class="transport-operator">台灣好行 A 線｜阿里山 → 高鐵嘉義</p><div class="time-pair"><div><small>阿里山轉運站</small><strong>16:40</strong></div><span class="transport-arrow">→</span><div><small>高鐵嘉義站</small><strong>晚間</strong></div></div><p class="transport-desc">這班是<strong>7329 主線</strong>，不是經奮起湖的 7329A。車程及高鐵接續請以實際運行查詢。</p><div class="transport-links"><a target="_blank" rel="noopener noreferrer" href="https://beta.taiwantrip.tad.gov.tw/Route/Schedule?routeId=R0007">官方逐站時刻 ↗</a><a target="_blank" rel="noopener noreferrer" href="https://irs.thsrc.com.tw/IMINT/">高鐵訂票 ↗</a></div></article>
+      </div>
+      <div class="train-note reveal"><div class="little-icon">🚂</div><div><strong>12/01 眠月線回程想搭小火車？</strong><p>如果走到沼平站且時間剛好，參考往阿里山站班次：13:20／13:50／14:20／15:00／15:30／16:00。<b>這是彈性加分項，不是保證接得上的行程。</b></p></div><a href="https://afrch.forest.gov.tw/0000300" target="_blank" rel="noopener noreferrer" aria-label="查看沼平線官方時刻">核對班次 ↗</a></div>
+    </section>
+
+    <section class="map-section section-space" id="map">
+      <div class="wrap map-layout">
+        <div class="map-copy reveal"><p class="section-label">03 / 森林散策 · FOREST WALK</p><h2>把腳步留給<em>彼此。</em></h2><p>11/30 不趕景點。從高山青大飯店出發，先坐一段森林小火車，再去看湖水和大樹。最晚 18:00 返回飯店，留足準備 19:00 家教的時間。</p><div class="route-list"><span><b>01</b>高山青大飯店</span><span><b>02</b>阿里山站 → 神木站</span><span><b>03</b>巨木群棧道</span><span><b>04</b>姊妹潭・相思亭</span><span><b>05</b>沿沼平方向返回飯店</span></div><div class="map-actions"><button id="mapOpenBtn" type="button" class="btn btn-forest">放大官方園區圖 <span aria-hidden="true">↗</span></button><a class="text-link" target="_blank" rel="noopener noreferrer" href="https://recreation.forest.gov.tw/Forest/RA?typ=0&amp;typ_id=0500001">園區官方資訊 ↗</a></div></div>
+        <div class="map-sheet reveal"><div class="map-sheet-top"><span>阿里山森林遊樂區 / 園區導覽</span><span class="map-sheet-dot">● ● ●</span></div><button class="map-image-button" type="button" id="mapImageOpenBtn" aria-label="打開官方阿里山森林遊樂區地圖"><img src="./assets/official-alishan-map.jpg" alt="阿里山森林遊樂區官方中文導覽摺頁，標有阿里山站、神木站、姊妹潭、巨木群等景點" loading="lazy" /><span>點擊放大地圖 ↗</span></button><div class="map-sheet-caption"><span>OFFICIAL GUIDE MAP</span><span>資料來源：阿里山國家森林遊樂區官方摺頁</span></div></div>
+      </div>
+    </section>
+
+    <section class="practical-section section-space wrap" id="checklist"><div class="section-heading reveal"><p class="section-label">04 / 旅の準備 · PACKING LIST</p><h2>裝進背包的，<em>還有期待。</em></h2><p>勾選後會記在這支手機的瀏覽器裡，重新打開也會保留。出發前一起檢查吧。</p></div><div class="practical-layout"><div class="check-card reveal"><div class="check-head"><div><h3>ふたりの持ち物</h3><p>山上保暖與眠月線準備</p></div><strong id="checkCount">0 / 10</strong></div><div class="check-progress"><span id="checkProgressBar"></span></div><div id="checklistItems" class="checklist-items"></div><button id="resetChecks" class="reset-checks" type="button">清除勾選，重新整理 ↻</button></div><div class="notice-column"><article class="note-card vital reveal"><span class="note-tag">IMPORTANT · 安全提醒</span><h3>眠月線的時間，<br>不能只看去程。</h3><p>12/01 預計 07:00 起登、11:30 前到石猴。<strong>若去程需 4.5 小時，回程可能也接近 4.5 小時；再加上領行李與前往轉運站，16:40 公車非常緊。</strong></p><p>務必按當天的路況、天氣和體力設定安全折返時間；如無法兼顧安全與回程交通，應調整石猴目標或返程方式。勿為趕車加速通過危險路段。</p></article><article class="note-card warm reveal"><span class="note-tag">11.30 · 老婆上家教</span><h3>把傍晚留給休息。</h3><p><strong>17:30 目標回飯店，18:00 最後緩衝</strong>，晚間 19:00 家教。到飯店先確認 Wi-Fi 與手機熱點，備妥充電器。</p></article></div></div></section>
+
+    <section class="links-section section-space" id="links"><div class="wrap"><div class="section-heading reveal"><p class="section-label">05 / 旅行資料室 · OFFICIAL LINKS</p><h2>重要連結，<em>一次收藏。</em></h2><p>只連到官方時刻、訂票、旅館與景點資訊；點擊即在新分頁開啟。</p></div><div class="link-grid" id="linksGrid"></div></div></section>
+
+    <section class="end-section"><div class="wrap end-inner reveal"><div class="end-star">✳</div><p lang="ja">一期一会</p><h2>有些風景，或許一生只會遇見一次。<br><em>但我想，每一次都有你。</em></h2><span>小白小雞毛旅行社　·　2026.11.29 — 12.01</span><div class="end-actions"><button id="copySummary" type="button" class="btn btn-forest">複製三日行程 <span aria-hidden="true">⧉</span></button><button id="printBtn" type="button" class="btn btn-light">列印行程 <span aria-hidden="true">⎙</span></button></div></div></section>
+  </main>
+
+  <footer class="site-footer"><div class="wrap footer-inner"><div><b>小白小雞毛旅行社</b><small>しろとひよこの旅 · SHIRO & HIYOKO TRAVEL</small></div><p>Made for two. ♡<br>不是正式旅行社，也不販售任何行程。時刻表可能異動，出發前請再次確認。</p></div></footer>
+
+  <dialog id="mapDialog" class="map-dialog" aria-labelledby="mapDialogTitle"><div class="dialog-top"><h2 id="mapDialogTitle">阿里山森林遊樂區・官方導覽摺頁</h2><button type="button" id="closeMapBtn" class="close-modal" aria-label="關閉地圖">✕</button></div><div class="map-scroll"><img src="./assets/official-alishan-map.jpg" alt="阿里山森林遊樂區官方摺頁詳細導覽地圖" /></div><p class="dialog-hint">手機可用雙指縮放頁面，或橫向捲動查看原圖。出發前仍以園區最新公告為準。</p></dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="./app.js" defer></script>
+</body>
+</html>
